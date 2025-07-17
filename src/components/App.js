@@ -3,7 +3,10 @@ import './../styles/App.css';
 
 const App = (props) => {
   const [isVisible, setIsVisible] = useState(false);
-
+  
+  const handleClick = () => {
+    setIsVisible(true);
+  }
 
   return (
     <div className="App" id="main">
